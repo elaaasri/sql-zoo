@@ -36,11 +36,9 @@ ORDER BY name;
 SELECT name FROM world
 WHERE name LIKE '%__o__%';
 
-
 -- 10 - Find the countries that have exactly four characters: 
 SELECT name FROM world
 WHERE name LIKE '____';
-
 
 -- Harder Questions Section:
 -- 1 - Find the country where the name is the capital city:

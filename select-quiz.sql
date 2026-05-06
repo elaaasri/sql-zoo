@@ -20,7 +20,7 @@ WHERE name LIKE '%a' OR name LIKE '%l';
 -- 4 - Pick the result from the query:
 SELECT name,length(name)
 FROM world
-WHERE length(name)=5 and region='Europe';
+WHERE length(name)= 5 and region='Europe';
 
 -- answer: (option 3)
 -- name	length(name)
